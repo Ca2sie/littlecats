@@ -1,0 +1,358 @@
+body{
+  font-family: 'Times New Roman', Times;
+  font-size: 80px;
+color: rgb(34, 124, 124);
+
+}
+
+.box{
+
+    width: 800px;
+    height: 90px;
+    background-color: rgb(247, 239, 239);
+    border:3px solid rgb(150, 103, 150);
+    border-radius: 35px;
+    
+    padding-top: 4px;
+    padding-bottom: 20px;
+    margin: 0 auto; 
+    position: relative;
+    left: 0x;
+    top: 100px;
+    opacity: 0.6;
+}
+
+.box2{
+
+    width: 1200px;
+    height: 3px;
+    background-color: rgb(250, 250, 250);
+    border:3px transparent rgb(228, 196, 228);
+    border-radius: 2px;
+    padding: 2px;
+    margin: 0 auto; 
+    position: relative;
+    left: 0;
+    top: -55px;
+    opacity: 0.7;
+}
+.box3{
+
+    width: 250px;
+    height: 50px;
+    background-color: rgb(247, 239, 239);
+    border:3px transparent rgb(228, 196, 228);
+    border-radius: 20px;
+    padding: 5px;
+    padding-left: 20px;
+    margin: 0 auto; 
+    position: relative;
+    left: -500px;
+    top: 100px;
+    opacity: 0.6;
+    font-size: 45px;
+    font-family: 'Times New Roman', Times;
+    font-style: italic;
+}
+.p{
+    font-weight: bold;
+    text-align: center;
+    font-style: italic;
+}
+.boldd{
+    font-weight: bold;
+    text-align: center;
+    
+}
+  /* 设置所有元素的边框盒模型为border-box */
+  * {
+    box-sizing: border-box;
+  }
+  /* 设置顶部和底部header、footer的样式 */
+  .header {
+  background-color: white;
+  color: rgb(204, 129, 129);
+  padding: 10px;
+  opacity: 0.5;
+
+  }
+  .footer {
+    position: fixed;
+    bottom: 0;
+    background-color: rgb(255, 255, 255);
+    color: rgb(161, 89, 89);
+    padding: 0px;
+    opacity: 0.9;
+    width: 100%;
+    height: 25px;
+    box-sizing: border-box;
+    }
+  
+  /* 设置列的样式 */
+  .column {
+  float: left;
+  padding: 15px;
+  }
+  
+  /* clearfix hack：清除浮动 */
+  .clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+  }
+  
+  /* 设置菜单栏的宽度 */
+  .menu {
+  width: 30%;
+  }
+  
+  /* 设置内容栏的宽度 */
+  .content {
+  width: 75%;
+  }
+  
+  /* 设置菜单栏的列表样式 */
+  .menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  }
+  
+  /* 设置菜单栏列表项的样式 */
+  .menu li {
+  padding: 8px;
+  margin-bottom: 28px;
+  background-color: #eccfad;
+  color: #ffffff;
+  border-radius: 20px;
+  font-size: 50px;
+  }
+  
+  /* 设置菜单栏列表项悬停时的样式 */
+  .menu li:hover {
+  background-color: #c7986c;
+  }
+
+  a {
+    font-family: "Times New Roman", Times, serif;
+    color: #ffffff;
+    font-size: 50px;
+    text-decoration: none;
+    /* 其他字体格式样式 */
+  }
+
+  .bai{
+    font-family: "Times New Roman", Times, serif;
+    color: #dd9b9b;
+    font-size: 50px;
+    text-decoration: none;
+  }
+  .baii{
+    font-family: "Times New Roman", Times, serif;
+    color: #ffffff;
+    font-size: 40px;
+    text-decoration: none;
+    /*width: 800px;*/
+    text-align: center;
+    padding-left: 20px;
+  }
+  .bai3{
+    font-family: "Times New Roman", Times, serif;
+    color: #dd9b9b;
+    font-size: 40px;
+    text-decoration: none;
+  }
+  .bai4{
+    font-family: "Times New Roman", Times, serif;
+    color: #ffffff;
+    font-size: 40px;
+    text-decoration: none;
+    width: 700px;
+    text-align: center;
+    padding-left: 20px;
+  }
+  .element {
+    -webkit-text-stroke: 1px rgb(230, 193, 193);
+  }
+  .bai5{
+    font-family: "Times New Roman", Times, serif;
+    color: #ffffff;
+    font-size: 50px;
+    text-decoration: none;
+    width: 600px;
+    text-align: center;
+    padding-left: 20px;
+  }
+  .bai6{
+    font-family: "Times New Roman", Times, serif;
+    color: #ffffff;
+    font-size: 40px;
+    text-decoration: none;
+    width: 700px;
+    text-align: center;
+    padding-left: 20px;
+    position: relative;
+    left: 700px;
+    top: -300px;
+  }
+
+  .biaoti{
+    font-family: "Times New Roman", Times, serif;
+    color: #ffffff;
+    font-size: 80px;
+    text-decoration: none;
+   
+    text-align: center;
+    padding-left: 20px;
+  }
+  
+
+  .bai7{
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    font-size: 30px;
+    text-decoration: none;
+    
+    text-align: center;
+   
+   
+  }
+  
+  .bai8{
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    font-size: 25px;
+    text-decoration: none;
+    font-style: italic;
+   
+   
+  }
+  .bai9{
+    font-family: Arial, sans-serif;
+    color: #539c8a;
+    font-size: 10px;
+    text-decoration: none;
+    
+   
+   
+  }
+  .bai10{
+    font-family: "Times New Roman", Times, serif;
+    color: #ffffff;
+    font-size: 80px;
+    text-decoration: none;
+   font-weight: bold;
+   font-style: italic;
+   position: relative;
+   left:0;
+   top: 120px;
+    
+  }
+  .bai11{
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+    font-style: italic;
+   
+   
+  }
+
+  .image-group {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .image-container {
+    position: relative;
+    margin: 20px;
+    width: 438px;
+    height: 420px;
+    perspective: 1000px;
+  }
+  .image-container2 {
+    position: relative;
+    margin: 20px;
+    width: 138px;
+    height: 200px;
+    perspective: 1000px;
+    position: relative;
+    top:430px;
+    left: 55px;
+    
+  }
+  
+  .front-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s ease-out;
+    backface-visibility: hidden;
+  }
+  
+  .back-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: rotateY(180deg);
+    transition: transform 0.5s ease-out;
+    backface-visibility: hidden;
+  }
+  
+  input[type="checkbox"] {
+    display: none;
+  }
+  
+  label {
+    display: block;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+  
+  input[type="checkbox"]:checked + label .front-image {
+    transform: rotateY(180deg);
+  }
+  
+  input[type="checkbox"]:checked + label .back-image {
+    transform: rotateY(0deg);
+  }
+
+  .chaxun2{
+    position:relative;
+    left:0px;
+    top:10px;
+    z-index: 999;
+}
+
+img.chaxun2:hover {
+transform: scale(2);
+}
+
+.chaxun3{
+  position:relative;
+  left:1350px;
+  top:10px;
+  z-index: 999;
+}
+
+img.chaxun3:hover {
+transform: scale(2);
+}
+.chaxun4{
+  position:relative;
+  left:150px;
+  top:700px;
+z-index: 999;
+}
+img.chaxun4:hover {
+  transform: scale(2);
+  }
+  .pos{
+    position: relative;
+    top:130px;
+  }
